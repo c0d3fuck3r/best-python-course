@@ -32,6 +32,7 @@ if __name__ == "__main__":
         if password:
             break
 
+    # open file with context manager
     with open("user.txt") as f:
         # long imperative way
         # line = f.readline().strip()
@@ -39,10 +40,14 @@ if __name__ == "__main__":
 
         # short way
         # this is called "chaining" of "fluent interface"
+
+        # read one line from file
         _login, _digest = f.readline().strip().split()
 
+    # generate hash from input password
     digest = hashlib.sha256(password.encode()).hexdigest()
 
+    # compare
     if login == _login and digest == _digest:
         print(f"Access granted for user {login}")
     else:

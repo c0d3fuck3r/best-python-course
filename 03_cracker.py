@@ -26,13 +26,17 @@ if __name__ == "__main__":
     passwords = []
 
     with open("passwords.txt") as f:
+
+        # read file line by line and fill passwords list
         for password in f.readlines():
             passwords.append(password.strip())
 
     login = input("Enter login: ").strip()
 
+    # flag that helps to indicate if credentials matched
     matched = False
 
+    # loop through passwords and compare with input
     for password in passwords:
         if login == LOGIN and password == PASSWORD:
             matched = True

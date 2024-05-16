@@ -32,17 +32,19 @@ if __name__ == "__main__":
     # while not login:
     #     login = input("Enter login: ").strip()
 
+    # asking for login until it's not empty
     while True:
         login = input("Enter login: ").strip()
         if login:
             break
 
+    # same for password
     while True:
         password = input("Enter pass: ").strip()
         if password:
             break
 
-    # simple version
+    # compare input with constant values
     if login == LOGIN and password == PASSWORD:
         print("Access granted")
     else:

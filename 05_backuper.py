@@ -12,6 +12,7 @@ if __name__ == "__main__":
     # for file in os.listdir(src_dir):
     #     print(file)
 
+    # check if backup dir exists. create if not
     if not os.path.exists(dst_dir):
         print(f"Backup dir {dst_dir} does not exist.")
         print("Creating...")
@@ -19,6 +20,7 @@ if __name__ == "__main__":
 
     total_bytes = 0
 
+    # copy each file(not dirs) to backup dir
     for file in os.listdir(src_dir):
         if not os.path.isdir(file):
             total_bytes += os.path.getsize(file)
