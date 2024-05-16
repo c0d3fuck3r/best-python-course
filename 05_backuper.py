@@ -25,5 +25,6 @@ if __name__ == "__main__":
             shutil.copy(file, dst_dir)
 
     print("Backup completed.")
-    total_mb = "%.2f" % (total_bytes / 1024 / 1024)
+    total_mb = round((total_bytes / 1024 / 1024), 2)
+    # total_mb = "%.2f" % (total_bytes / 1024 / 1024)
     print(f"{total_mb} MB copied.")
