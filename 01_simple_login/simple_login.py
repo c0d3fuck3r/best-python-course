@@ -25,7 +25,15 @@
 LOGIN = "admin"
 PASSWORD = "qwerty"
 
-if __name__ == "__main__":
+
+def get_users_input(prompt: str) -> str:
+    while True:
+        value = input(prompt).strip()
+        if value:
+            return value
+
+
+def main():
 
     # alternate version of loop
     # login = ""
@@ -49,3 +57,7 @@ if __name__ == "__main__":
         print("Access granted")
     else:
         print("Access denied")
+
+
+if __name__ == "__main__":
+    main()
