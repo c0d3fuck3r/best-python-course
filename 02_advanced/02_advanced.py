@@ -1,11 +1,15 @@
-# 1. Explain importing modules
+# 1. Explain importing modules (Гэддис с.257-261)
+#    https://www.youtube.com/watch?v=vqsalStEu38&list=PLlWXhlUMyooaeSj8L8tVVbtUo0WCO4ORR&index=17
 # 2. Explain how to research library functions
-# 3. How to pass parameters. Take a note on types
+#    ...
+# 3. How to pass parameters. Take a note on types (Гэддис c.245-252)
+#    https://www.youtube.com/watch?v=Zb3lF4qfElA&list=PLlWXhlUMyooaeSj8L8tVVbtUo0WCO4ORR&index=7
 # 4. Brief note about what is ContextManager
-# 5. "open" function. What is file: descriptor, mode
-# 6. TextIOWrapper API
-# 7. Note on lists and destructuring
-# 8. What is encoding/decoding
+#    https://www.youtube.com/watch?v=fUJT0TVfcFo&list=PLlWXhlUMyooaeSj8L8tVVbtUo0WCO4ORR&index=14
+# 5. "open" function. What is file: descriptor, mode (Гэддис с.308-...)
+# 6. TextIOWrapper API (Гэддис с.308-...)
+# 7. Note on lists and destructuring (Про списки будет позже)
+# 8. What is encoding/decoding ("some string".encode(), b"some bytes".decode())
 
 # Задание сделать скрипт:
 # 1. Создает пользователя:
