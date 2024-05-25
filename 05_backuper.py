@@ -1,5 +1,8 @@
 # Explain os module
 
+# Задача
+# Сделать архивную копию(сжать). Модуль tarfile, gzip или shutil допустим. 
+
 import os
 import shutil
 
