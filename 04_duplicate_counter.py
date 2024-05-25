@@ -7,6 +7,12 @@
 # 2.2 With set(explain what is set)
 # 2.3 Explain list comprehensions
 
+# Задача
+# Есть файл с логами.
+# Достать из логов IP адреса
+# Посчтитать IP адреса
+# Вывести summary в конце
+
 from pprint import pprint
 
 
