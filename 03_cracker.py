@@ -13,6 +13,11 @@
 
 # 4. Explain boolean flag concept
 
+# Задача
+# Пропинговать список IP адресов
+# По одному пакету на адрес
+# summary
+
 LOGIN = "admin"
 PASSWORD = "qwerty"
 
